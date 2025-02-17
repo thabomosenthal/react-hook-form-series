@@ -20,7 +20,7 @@ const YoutubeForm: React.FC = () => {
 				<div className="grid">
 					<label htmlFor="email">Email</label>
 					<input
-						type="text"
+						type="email"
 						id="email"
 						name="email"
 						className="w-96 px-2 py-1 border-2 rounded-sm"
