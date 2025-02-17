@@ -7,20 +7,37 @@ import React from "react";
 const YoutubeForm: React.FC = () => {
 	return (
 		<>
-			<form action="">
+			<form className="grid gap-3 place-items-center">
 				<div className="grid">
 					<label htmlFor="username">Username</label>
-					<input type="text" id="username" name="username" />
+					<input
+						type="text"
+						id="username"
+						name="username"
+						className="w-96 px-2 py-1 border-2 rounded-sm"
+					/>
 				</div>
 				<div className="grid">
 					<label htmlFor="email">Email</label>
-					<input type="text" id="email" name="email" />
+					<input
+						type="text"
+						id="email"
+						name="email"
+						className="w-96 px-2 py-1 border-2 rounded-sm"
+					/>
 				</div>
 				<div className="grid">
 					<label htmlFor="channel">Channel</label>
-					<input type="text" id="channel" name="channel" />
+					<input
+						type="text"
+						id="channel"
+						name="channel"
+						className="w-96 px-2 py-1 border-2 rounded-sm"
+					/>
 				</div>
-				<button>Submit</button>
+				<button type="button" className="border rounded-sm px-4 py-1">
+					Submit
+				</button>
 			</form>
 		</>
 	);
