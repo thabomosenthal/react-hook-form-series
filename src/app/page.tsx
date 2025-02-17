@@ -6,7 +6,7 @@ import React from "react";
 import YoutubeForm from "@/components/feature/youtube-form";
 
 export default function Home() {
-	const [count, setCount] = React.useState(0);
+	// const [count, setCount] = React.useState(0);
 
 	return (
 		<main className="container mx-auto">
